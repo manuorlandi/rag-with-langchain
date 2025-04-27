@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# langchain-docs
+langchain-docs/
+
+# Environment variables
+.env
+
+# Project specific
+db/
+*.pkl
+*.faiss
+*.index
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store 
+
+# Data
+*.csv
