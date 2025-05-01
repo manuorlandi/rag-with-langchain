@@ -1,31 +1,45 @@
+# Environment variables
+.env
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual Environment
-.venv/
 venv/
 ENV/
 
-# langchain-docs
-langchain-docs/
-
-# Environment variables
-.env
-
-# Project specific
-db/
-*.pkl
-*.faiss
-*.index
+# Model files
+models/vectorstore/
 
 # IDE
-.vscode/
 .idea/
+.vscode/
+*.swp
+*.swo
 
-# Misc
-.DS_Store 
+# OS specific
+.DS_Store
 
 # Data
-*.csv
+data/raw/
+data/processed/
+data/vectorstore/
